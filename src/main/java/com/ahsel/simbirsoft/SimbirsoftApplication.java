@@ -12,14 +12,6 @@ public class SimbirsoftApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SimbirsoftApplication.class, args);
-//        DownloaderHtmlPage loader = new DownloaderHtmlPage();
-//        CleanerHtmlTags cleaenr = new CleanerHtmlTags();
-//        loader.downloadPage("https://www.simbirsoft.com");
-//        cleaenr.cleanTags("https://www.simbirsoft.com");
-//        WordCounter wordCounter = new WordCounter();
-//        wordCounter.countWord();
-
-
     }
 
 }
