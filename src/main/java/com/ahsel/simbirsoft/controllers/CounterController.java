@@ -37,9 +37,9 @@ public class CounterController {
         System.out.println("-----------------------------------------------------------------------------------------");
         System.out.println(url);
         DownloaderHtmlPage loader = new DownloaderHtmlPage();
-        CleanerHtmlTags cleaenr = new CleanerHtmlTags();
+        CleanerHtmlTags cleaner = new CleanerHtmlTags();
         loader.downloadPage(url);
-        cleaenr.cleanTags(url);
+        cleaner.cleanTags(url);
         WordCounter wordCounter = new WordCounter();
         wordCounter.countWord();
         wordsRepository.deleteAll();
